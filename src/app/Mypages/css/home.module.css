@@ -1,0 +1,425 @@
+.main{
+    height: 100vh;
+    background-image: url('/bg.png');
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    position: relative;
+}
+.main .waves{
+    position: absolute;
+    bottom: 0;
+   
+}
+.main h1{
+    position: absolute;
+    top: 27vh;
+    left: 25vh;
+    width: 613px;
+    height: 100px;
+ 
+    color: white;
+    font-family: Oswald;
+font-size: 55px;
+font-weight: 500;
+text-transform: uppercase;
+line-height: 100px;
+text-align: left;
+    
+}
+.main p{
+   
+    position: absolute;
+    top: 41vh;
+    left:25vh;
+    width: 826px;
+   height: 34.3px;
+    gap: 10px;
+    font-family: Quattrocento;
+    font-size: 30.65px;
+    font-weight: 400;
+    line-height: 33.96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    
+
+}
+.main .btns{
+    position: absolute;
+  
+    width: Hug (390.85px)px;
+height: Hug (58.71px)px;
+top: 52vh;
+left: 25vh;
+
+
+}
+.jbtn ,.fbtn{
+    text-decoration: none;
+    border: 2px solid white;
+    width: Fixed (208.22px)px;
+height: Fixed (58.71px)px;
+padding: 13.53px 45.09px 13.53px 45.09px;
+gap: 9.17px;
+border-radius: 30px;
+opacity: 0px;
+font-family: Quattrocento;
+font-size: 25.68px;
+font-weight: 700;
+line-height: 28.46px;
+text-align: left;
+color: white;
+margin-right: 10px;
+
+}
+.jbtn:hover ,.fbtn:hover{
+     background: #B95B00;
+     border: none;
+    
+}
+.description{
+   
+    display: flex;
+    flex-direction: row;justify-content: space-around;
+    background-color: bisque;
+    line-height: 25px;
+    height: 100vh;
+
+
+}
+.describe {
+
+    width: 590px;
+    height: 340px;
+    font-size: 20px;
+    margin-top: 10vh;
+    margin-left: 15vh;
+
+}
+.describe p{
+    font-family: Quattrocento;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+     
+}
+.describe h4 {
+    
+    width: 590px;
+    height: 60px;
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 59.28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+
+}
+
+.pic{
+  
+    width: 588.84px;
+   height: 425.81px;
+   background-color: bisque;
+   padding-top: 15vh;
+
+}
+.pic1 ,.pic2{
+
+    width: 282px;
+  height: 282px;
+
+}
+.pic2{
+    margin-top: 20vh;
+    margin-left: 20px;
+}
+.register{
+    border: 2px solid bisque;
+    background-color: bisque;
+   
+}
+.register h4{
+   
+    width: 212px;
+height: 53px;
+margin-top: 12vh;
+margin-left: 40%;
+font-family: Oswald;
+font-size: 36px;
+font-weight: 700;
+line-height: 53.35px;
+text-align: left;
+
+}
+.regipic{
+
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+    gap:20px;
+}
+ .content1,.content2,.content3{
+
+    width: 389.44px;
+height: 389.44px;
+
+
+}
+.content1{
+    background-image: url('/img1.png');
+    background-color: rgba(0,0,0,0.06);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 12vh;
+    
+}
+.content2{
+    background-image: url('/img4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.content3{
+    background-image: url('/img3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.content1 h6, .content2 h6, .content3 h6{
+
+    width: 177px;
+   height: 24px;
+   margin-top: 48vh;
+   margin-left: 15vh;
+font-family: Quattrocento;
+font-size: 22px;
+font-weight: 700;
+line-height: 24.38px;
+color: #FFFFFF;
+
+
+}
+.content1 .btn, .content2 .btn, .content3 .btn{
+    border: 2px solid white;
+    width: Hug (276.29px)px;
+height: Hug (34.82px)px;
+margin-top: 50vh;
+   margin-left: 12vh;
+padding: 5.91px 23.64px 5.91px 23.64px;
+gap: 14.78px;
+border-radius:25px;
+text-decoration: none;
+background: #B95B00;
+color: white;
+font-family: Quattrocento;
+font-size: 20.69px;
+font-weight: 700;
+line-height: 22.92px;
+text-align: left;
+
+
+}
+.donation{
+    position: relative;
+    background-image: url('/donation.png');
+    background-color:rgba(0,0,0,0.6);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    width: 1442.34px;
+height: 637.03px;
+border: 2px solid bisque;
+
+
+}
+.donation .waves{
+    position: absolute;
+    
+    bottom: 0;
+}
+.donation h3{
+
+    width: 258.42px;
+height: 71.12px;
+margin-left: 40%;
+margin-top: 25vh;
+font-family: Oswald;
+font-size: 35px;
+font-weight: 700;
+line-height: 71.14px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.donation p{
+
+    color:  #FFFFFF;
+    width: 1100.34px;
+height: 135.03px;
+margin-left: 25vh;
+font-family: Quattrocento;
+font-size: 20px;
+font-weight: 700;
+line-height: 22.16px;
+text-align: center;
+
+}
+.donation .btn ,.work .btn{
+    width: Hug (376.29px)px;
+    height: Hug (44.82px)px;
+    text-decoration: none;
+    background: #FBBD3B;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px ;
+   padding:10px;
+   font-family: Quattrocento;
+font-size: 22.78px;
+font-weight: 700;
+line-height: 25.24px;
+margin-left: 38%;
+
+
+}
+.work{
+   
+  background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  padding-top: 12vh;padding-bottom: 24vh;
+    
+}
+.work .steps h4 {
+   
+    width: 300px;
+height: 53px;
+font-family: Oswald;
+font-size: 35px;
+font-weight: 700;
+line-height: 53.35px;
+text-align: left;
+margin-left: 25px;
+text-transform: uppercase;
+  
+}
+.work .steps ol  li{
+  
+    width: Fixed (404px)px;
+height: Hug (208px)px;
+font-family: Quattrocento;
+font-size: 20px;
+font-weight: 700;
+line-height: 22.16px;
+text-align: left;
+margin: 25px;
+
+
+
+}
+.work .me{
+  
+    width: 588px;
+height: 453px;
+
+
+}
+.work .btn{
+    background-color: #B95B00;
+    margin-left: 25px;
+}
+.work .btn:hover{
+    background-color: green;
+}
+.founder{
+ 
+    width: Fixed (1,440px)px;
+   padding: 34px 120px 34px 120px;
+
+
+}
+.founder .fpara {
+   
+    width: 1166px;
+height: 143px;
+
+}
+.founder .fpara p{
+  text-transform: uppercase;
+    font-family: Oswald;
+font-size: 29.57px;
+font-weight: 600;
+
+
+}
+.founder .fpara h6{
+    margin-left: 160vh;
+    width: 198px;
+height: 27px;
+font-family: Quattrocento;
+font-size: 18px;
+font-weight: 400;
+line-height: 26.59px;
+
+
+}
+
+.contact{
+   
+    display: flex;
+    flex-direction: row; 
+     justify-content: space-around;
+    background-color: bisque;
+  
+}
+.contact1{
+   
+    width: 513px;
+height: 143px;
+margin-top: 12vh;
+}
+.contact1 h1{
+    width: 513px;
+height: 53px;
+
+font-family: Oswald;
+font-size: 36px;
+font-weight: 700;
+line-height: 53.35px;
+text-align: left;
+text-transform: uppercase;
+
+}
+.contact2{
+    
+    margin-top: 12vh;
+    width: 590px;
+height: 550px;
+
+}
+.contact2 .subbtn{
+    margin-top: 12vh;
+    background-color: #B95B00;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    height: 52px;
+    border-radius: 25px;
+    border: 2px solid white;
+    color: white;
+    font-family: Quattrocento;
+font-size: 24px;
+font-weight: 700;
+line-height: 26.59px;
+}
+

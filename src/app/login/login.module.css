@@ -1,0 +1,38 @@
+.container1{
+
+    background: url('/login.png'),rgba(0,0,0,0.6);
+    height: 120vh;
+     background-blend-mode: multiply;
+    position: relative;
+    
+    
+}
+.container1 .waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;   
+}
+
+
+.log {
+
+    background-color: bisque;
+height: 500px;
+padding: 25vh;
+padding-left: 22vh;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.log .btn{
+    background: #B95B00;
+
+    margin-top: 10vh;
+    width: 20vh;
+ 
+    padding: 12px ;
+    border-radius: 25px;
+    border: 2px solid #553D1D ;
+}

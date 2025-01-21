@@ -1,0 +1,132 @@
+.Donation{
+
+    background: url('/donation.png'),rgba(0,0,0,0.6);
+    height: 100vh;
+     background-blend-mode: multiply;
+    position: relative;
+
+}
+.Donation .waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;   
+}
+.Donation .heading{
+    text-transform: uppercase;
+    position: absolute;
+    color: white;
+    width: 700px;
+    height: 104px;
+    top: 200px;
+    left: 290px;
+   line-height: 39.92px;
+    text-align: center
+ 
+}
+.Donation .heading h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.amount{
+
+    padding-top: 20vh;
+    background-color: bisque;
+    padding-bottom: 20vh;
+   
+    
+}
+.pack{
+    
+    width: 800px;
+    height: 70px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.pack button{
+ 
+    width: 423px;
+   
+
+}
+.pack  .btn2{
+    
+    background-color: #553d1d;
+    color: white;
+
+}
+.options,.dollor1,.dollor2{
+   
+    width: 800px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20%;
+    
+    
+}
+.options button{
+ 
+    width: 800px;
+   background: #B95B00;
+   color: white;
+    height: 50px;
+    border: none;
+ 
+
+}
+
+.dollor1 button,.dollor2 button{
+    width: 30%;
+   height: 70px;
+  margin-left: 14px;
+  background-color: bisque;
+  border-radius: 4px ;
+
+
+}
+.dollor1 .btn1{
+    background-color: #4BB36B;
+    
+}
+.payment{
+  
+    height: 70vh;
+    justify-items: center;
+    line-height: 10px;
+    padding-top: 5vh;
+    background-color: bisque;
+}
+.payment h6{
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.payment h1{
+    width: 156px;
+height: 117px;
+font-size: 90px;
+font-weight: 700;
+line-height: 117.45px;
+
+color: red;
+
+
+}
+.cards img{
+ padding-left: 30px;
+margin-top: 18px;
+height: 5vh;
+line-height: 15px;
+
+}
+.payment .btn{
+    background-color: #553d1d;
+    margin-top: 25px;
+    width: 130px;
+    height: 8vh;
+    border: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+}
