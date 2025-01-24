@@ -6,7 +6,7 @@ export default function Register() {
       <Navbar/>
       <div className={styles.container1}>
       <svg  className={styles.waves} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="bisque" 
-      fill-opacity="1" d="M0,0L60,53.3C120,107,240,213,360,261.3C480,309,600,299,720,272C840,245,
+      fillOpacity="1" d="M0,0L60,53.3C120,107,240,213,360,261.3C480,309,600,299,720,272C840,245,
       960,203,1080,202.7C1200,203,1320,245,1380,266.7L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,
       320C240,320,120,320,60,320L0,320Z"></path></svg>
 
@@ -36,34 +36,38 @@ export default function Register() {
 
   <div className={styles.row}>
     <div className={styles.col}>
-    <label>FIrstName</label>
+    <label>FirstName</label>
      <input type="text" class="form-control" id='name' placeholder="First name" />
     </div>
 
     <div className={styles.col}>
-    <label>LasttName</label>
+    <label>LastName</label>
       <input type="text" class="form-control"  id='name' placeholder="Last name"/>
     </div>
   </div>
   <div className={styles.row}>
     <div className={styles.col}>
-    
+    <label>Phone No</label>
      <input type="text" class="form-control"  id='name' placeholder="Phone Number"/>
     </div>
     <div className={styles.col}>
+    <label>Email</label>
       <input type="text" class="form-control"   id='name' placeholder="Email"/>
     </div>
   </div>
   <div className={styles.row}>
     <div className={styles.col}>
+    <label>City</label>
      <input type="text" class="form-control" id='name' placeholder="City"/>
     </div>
     <div className={styles.col}>
+    <label>State</label>
       <input type="text" class="form-control"  id='name' placeholder="State"/>
     </div>
   </div>
   <div className={styles.row}>
     <div className={styles.col}>
+    <label>Zip/Postal Code</label>
      <input type="text" class="form-control" id='name' placeholder="Zip/postal Code"/>
     </div>
   </div>

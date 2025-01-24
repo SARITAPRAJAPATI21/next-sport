@@ -1,4 +1,4 @@
-import styles  from './login.module.css'
+import styles  from './login.module.scss'
 import Navbar from '../Mypages/navbar';
 export default function Login() {
   return (
@@ -15,16 +15,16 @@ export default function Login() {
       
  
  <form className={styles.log}>
-  <div className="form-group">
+  <div className="form-group" id={styles.form}>
     <label htmlFor="exampleInputEmail1">Email address <span>*</span></label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+    <input type="email" class="form-control" id={styles.Email1} aria-describedby="emailHelp" placeholder="Enter email"/>
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
-  <div class="form-group">
+  <div class="form-group" id={styles.form}>
     <label htmlFor="exampleInputPassword1">Password <span>*</span></label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"/>
+    <input type="password" class="form-control" id={styles.Password1} placeholder="Password"/>
   </div>
-  <div class="form-check">
+  <div class="form-check" id={styles.form}>
     <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>

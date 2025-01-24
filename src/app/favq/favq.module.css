@@ -66,3 +66,24 @@ justify-content: stretch;
 
 
 }
+@media (max-width:500px) {
+   
+    .dropdown Button {
+      
+        width: 80%;
+        margin-left: 6vh;
+    }
+    .dropdown .title{
+        font-size: 2vh;
+    }
+    .content{
+       
+        width: 80%;
+        margin-left: 6vh !important;
+        
+    }
+   
+    
+
+    
+}

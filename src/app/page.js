@@ -1,7 +1,8 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+//import Image from "next/image";
+//import styles from "./page.module.css";
 import Navbar from "./Mypages/navbar";
 import MyHome from './Mypages/home'
+import footer from "./Mypages/footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
     
        <Navbar/>
        <MyHome/>
+       <footer/>
+       
       
     
         

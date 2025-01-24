@@ -180,6 +180,112 @@ text-align: left;
     background-color: #553D1D;
     color: white;
     font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 25px;
     border: none;
   border: none;
+}
+@media (max-width:500px){
+    .container1{
+      
+        background-position: 56%;
+        width: 100%;
+    }
+    .container1 h1{
+  
+      width: 80%;
+     
+      top: 44vh;
+      left: 7vh;
+      font-size: 5vw;
+    }
+    .container1 .para{
+        
+        width: 90%;
+        top: 52vh;
+        left: 3vh;
+    }
+    .para p{
+        font-size: 4vw;
+        line-height: 8px;
+    }
+    .container1 .btn{
+    
+        left: 14vh;
+        top: 62vh;
+        width: 40%;
+        padding-left: 10%;
+    }
+    
+    .boxes{
+        
+        width: 90% !important;
+ 
+        left: 4vw !important;
+        height: 150px !important;
+        top: 10vh !important;
+        
+    }
+    .box{
+       width: 28%;
+        height: 90%;
+   
+    }
+    .box h3{
+        font-size: 10vw;
+        height: 8vh;
+        width: 10vw;
+        left: 2vw;
+
+    }
+    .box h6{
+        width: 12vw;
+        font-size: 3vw;
+    }
+    .register{
+        
+        height: 178vh;
+    }
+    .d1{ 
+   
+         margin-left: 10vw;
+        width: 80%;
+        height: 90vh !important;
+        
+
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .d2{
+        
+        margin-left: 10vw;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+    }
+    .d3{
+        margin-left: 10vw;
+        width: 80%;
+        padding-left: 5vw;
+      
+    }
+    .regibtn{
+        border: 2px solid white;
+        padding: 10px 10px;
+        border-radius: 25px;
+        margin-left: 12vw !important;
+    }
+    .col{
+      
+        width: 90% !important;
+        margin-top: 10px;
+    }
 }

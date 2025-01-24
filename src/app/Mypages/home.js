@@ -1,5 +1,5 @@
 import styles from './css/home.module.css'
-import Image from 'next/image';
+//import Image from 'next/image';
 
 
 
@@ -39,8 +39,9 @@ export default function Home() {
     on the courts!</p>
     </div>
     <div className={styles.pic}>
-     <Image  className={styles.pic1} src='/img1.png' height="200" width="200"  alt='img1'/>
-     <Image className={styles.pic2} src='/img2.png' height="200" width="200"  alt='img2'/>  
+    <div className={styles.pic1}></div>
+    <div className={styles.pic2}></div>
+  
     </div>
 </div>
 
@@ -86,8 +87,9 @@ for your invaluable support!</p>
     <li>Play</li>
     <li>Record Scores</li></ol>
     <a href='/join' className={styles.btn} >Join Now</a>
-    </div>   
-    <Image  className={styles.me} src='/img5.png' height={400} width={400} alt="works"/>
+    </div> 
+    <div className={styles.me}></div>  
+  
  </div>
 
 

@@ -36,3 +36,27 @@ opacity: 0px;
     border-radius: 25px;
     border: 2px solid #553D1D ;
 }
+
+@media (max-width:500px) {
+    .container1{
+      
+        width: 100%;
+        background-position: 52%;
+    }
+    .log{
+       
+        padding-left: 15vw;
+        padding-top: 15vh;
+
+    }
+    #form{
+       
+        width: 300px;
+        padding: 0px 0px;
+        padding-left: 20px !important;
+       
+
+    }
+   
+    
+}

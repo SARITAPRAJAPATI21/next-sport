@@ -4,10 +4,13 @@
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     position: relative;
+
+   
 }
 .main .waves{
     position: absolute;
     bottom: 0;
+   
    
 }
 .main h1{
@@ -58,8 +61,8 @@ left: 25vh;
 .jbtn ,.fbtn{
     text-decoration: none;
     border: 2px solid white;
-    width: Fixed (208.22px)px;
-height: Fixed (58.71px)px;
+    width: 208.22px;
+height:58.71px;
 padding: 13.53px 45.09px 13.53px 45.09px;
 gap: 9.17px;
 border-radius: 30px;
@@ -79,9 +82,11 @@ margin-right: 10px;
     
 }
 .description{
+    margin-top: 0px;
    
     display: flex;
-    flex-direction: row;justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: bisque;
     line-height: 25px;
     height: 100vh;
@@ -89,12 +94,14 @@ margin-right: 10px;
 
 }
 .describe {
+    
 
     width: 590px;
     height: 340px;
     font-size: 20px;
     margin-top: 10vh;
     margin-left: 15vh;
+   
 
 }
 .describe p{
@@ -121,25 +128,28 @@ margin-right: 10px;
     
 
 }
-
 .pic{
-  
-    width: 588.84px;
-   height: 425.81px;
-   background-color: bisque;
-   padding-top: 15vh;
-
+    
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin-top: 100px;
 }
-.pic1 ,.pic2{
-
+.pic1{
+    background-image: url('/img1.png');
+    height: 282px;
     width: 282px;
-  height: 282px;
-
 }
 .pic2{
-    margin-top: 20vh;
-    margin-left: 20px;
+    background-image: url('/img2.png');
+    height: 282px;
+    width: 282px;
+    margin-top: 100px;
 }
+
+
+
+
 .register{
     border: 2px solid bisque;
     background-color: bisque;
@@ -328,7 +338,7 @@ margin: 25px;
 
 }
 .work .me{
-  
+    background-image: url('/img5.png');
     width: 588px;
 height: 453px;
 
@@ -423,3 +433,183 @@ font-weight: 700;
 line-height: 26.59px;
 }
 
+@media  (max-width:500px){
+ .main {
+    background-position: 52%;
+ 
+   
+ }
+
+ .main h1{
+    top: 40vh;
+    left: 5vw;
+    font-size: 7vw;
+   width: 80% !important;
+  
+ }
+ .main p{
+   top: 53vh;
+    left: 20px;
+    width: 80%;
+    height: 12vh;
+    font-size: 5vw;
+ }
+ .main .btns{
+ 
+     top: 67vh;
+    left: 5vw;
+    width: 70% !important;  
+ }
+ .jbtn ,.fbtn{
+  font-size: 4vw;
+   width: 10vw;
+  padding: 10px 10px;
+ }
+ .fbtn{
+  padding-left: 8vw;
+  padding-right: 8vw;
+ }
+ .jbtn{
+  padding-left: 6vw;
+  padding-right: 6vw;
+ }
+
+
+  .description{
+  
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+  }
+  .describe{
+   
+    width: 90%;
+    margin-left: 20px;
+  }
+  .describe h4{
+    font-size: 6vw;
+    width: 100% !important;
+  }
+  .describe p{
+    font-size: 18px;
+   
+    
+    
+  }
+  .pic{
+    display: flex;
+    flex-direction: column;
+  
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 0px;
+    height: 600px;
+   
+  }
+  .pic1{
+    height: 400px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+  }
+  .pic2{
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+ 
+  .regipic{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   
+    padding: 0px;
+    margin-left: 40px;
+  }
+  .content1{
+    margin-left: 0px;
+  }
+  .content3{
+  
+    margin-bottom: 50px;
+  }
+  .register h4{
+    margin-left: 30%;
+ margin-bottom: 30px;
+  }
+  .donation{
+    width: 100%;
+  
+    background-position: 48%;
+   
+    
+  }
+  .donation h3{
+    margin-left: 100px;
+  }
+  .donation p{
+    width: 90%;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  .donation .btn{
+    width: 30%;
+    margin-left: 60px;
+    font-size: 18px;
+    
+  }
+  .work{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .steps{
+
+    width: 70%;
+    
+  }
+  .me{
+   
+    margin-top: 90px;
+  width: 60% !important;  
+  }
+  .founder{
+ 
+  padding: 0px 0px;
+    
+
+  }
+  .founder .fpara {
+ 
+    width: 90%;
+    margin-left: 20px;
+   
+    
+    
+  }
+  .fpara p{
+ 
+   font-size: 15px !important;
+   font-weight: 100;
+   margin-top: 10px;
+  
+  }
+  .fpara h6{
+    margin-left: 290px !important;
+  }
+  .contact{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact1,.contact2{
+    
+    width: 80%;
+  }
+
+  
+
+
+}

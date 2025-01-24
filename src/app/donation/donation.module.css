@@ -130,3 +130,53 @@ line-height: 15px;
     border-radius: 25px;
     color: white;
 }
+
+
+@media (max-width:500px){
+    .Donation{
+   
+        background-position: 62%;
+    }
+    .heading{
+     
+        left: 0vh !important;
+       width: 80% !important;
+       top: 50vh !important;
+       left: 8vw !important;
+
+    }
+     .heading h1{
+        
+        font-size: 7vw !important;
+        
+     }
+     
+     .pack{
+       
+        width: 60% !important;
+
+     }
+     .options button{
+        
+        width: 30%;
+        
+
+     }
+     .dollor1,.dollor2 {
+       
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+       justify-content: space-around;
+      width: 60vw;
+
+     }
+     .dollor1 button,.dollor2 Button{
+        width: 50vw;
+
+     }
+   
+     .payment h6{
+        font-size: 7vw;
+     }
+}
